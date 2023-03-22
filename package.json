@@ -6,7 +6,9 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "dev": "hexo cl && hexo g && hexo s",
+    "pro": "hexo cl && hexo g && hexo d"
   },
   "hexo": {
     "version": "6.3.0"
@@ -20,7 +22,6 @@
     "hexo-algoliasearch": "^1.0.0",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-blog-encrypt": "^3.1.6",
-    "hexo-butterfly-categories-card": "^1.0.0",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-butterfly-swiper": "^1.0.12",

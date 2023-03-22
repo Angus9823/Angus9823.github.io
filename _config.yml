@@ -265,28 +265,28 @@ plugins:
 # 小冰分类磁贴
 magnet:
   enable: true
-  priority: 2
+  priority: 1
   enable_page: /
   type: categories
-  devide: 3
+  devide: 2 #表示分隔的列数，2 表示分为两列展示
   display:
     - name: 算法
-      display_name: 小Fの算法学习笔记
+      display_name: 小袁の算法学习笔记
       icon: 🍡
     - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
+      display_name: 小袁の计算机基础笔记
       icon: 🍼
     - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+      display_name: 小袁の博客魔改教程
       icon: 🍉
     - name: Java基础
-      display_name: 小FのJava基础笔记
+      display_name: 小袁のJava基础笔记
       icon: 🍟
     - name: 数据库
-      display_name: 小Fの数据库笔记
+      display_name: 小袁の数据库笔记
       icon: 🍨
     - name: 演示
-      display_name: 小Fの案例演示笔记
+      display_name: 小袁の案例演示笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色
