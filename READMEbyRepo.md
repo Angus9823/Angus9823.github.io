@@ -11,6 +11,8 @@ swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 域名：angus.love
 主机记录：alidnscheck
 记录值：f6cf3b93a0d147aeaad21fc91c3243a1
+
+数学很差韩顺平  遗憾北航宋红康！！！
 #
 
 Git 全局设置:

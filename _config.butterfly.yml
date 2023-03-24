@@ -155,7 +155,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed
-  # (當沒有設置cover時，默認的封面顯示)默认的封面显示 可以多张封面
+  # (當沒有設置cover時，默認的封面顯示)默认的封面显示 可以多张封面（文章封面 文章背景
   default_cover:
     - https://source.fomal.cc/img/default_cover_14.webp
     - https://source.fomal.cc/img/default_cover_13.webp
@@ -164,6 +164,49 @@ cover:
     - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/2023/img/iOne/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202303211029401.jpg
     - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/2023/img/iOne/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230321102942.jpg
     - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/2023/img/iOne/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202303211029422.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110107.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110126.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110130.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110133.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110137.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110147.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110239.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110250.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110254.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110258.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110302.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110306.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110312.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110319.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110324.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110341.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110352.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110356.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110400.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110415.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110419.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110423.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110432.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110439.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110444.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110448.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110508.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110512.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110525.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110529.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110533.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110541.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110544.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110549.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110559.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110603.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110607.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110611.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110615.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110620.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110625.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110628.jpg
+    - https://blog-pic-rep.oss-cn-beijing.aliyuncs.com/TheCoverOfTheArticle/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110632.jpg
 
     # ...
 

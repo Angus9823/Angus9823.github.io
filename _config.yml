@@ -282,11 +282,17 @@ magnet:
     - name: Java基础
       display_name: 小袁のJava基础笔记
       icon: 🍟
+    - name: Java后端
+      display_name: 小袁のJava后端笔记
+      icon: 🥝
     - name: 数据库
       display_name: 小袁の数据库笔记
       icon: 🍨
     - name: 演示
       display_name: 小袁の案例演示笔记
+      icon: 🍥
+    - name: 基础语法
+      display_name: 小袁の基础语法笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色
