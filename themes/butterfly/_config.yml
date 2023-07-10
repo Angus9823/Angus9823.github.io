@@ -499,7 +499,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/image-20230329170922244.png)
 
 # Footer Background
 footer_bg: false

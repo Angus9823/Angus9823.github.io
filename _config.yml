@@ -83,7 +83,7 @@ aplayer:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 6 #@ 每页显示文章的数目（数量
+  per_page: 9 #@ 每页显示文章的数目（数量 个数
   order_by: -date
 
 # Category & Tag
@@ -268,7 +268,7 @@ magnet:
   priority: 1
   enable_page: /
   type: categories
-  devide: 2 #表示分隔的列数，2 表示分为两列展示
+  devide: 3 #表示分隔的列数，2 表示分为两列展示  @（个数 数量）
   display:
     - name: 算法
       display_name: 小袁の算法学习笔记
@@ -285,7 +285,7 @@ magnet:
     - name: Java后端
       display_name: 小袁のJava后端笔记
       icon: 🥝
-    - name: 数据库
+    - name: MySQL
       display_name: 小袁の数据库笔记
       icon: 🍨
     - name: 演示
@@ -294,6 +294,12 @@ magnet:
     - name: 基础语法
       display_name: 小袁の基础语法笔记
       icon: 🍥
+    - name: Share
+      display_name: 小袁のShare
+      icon: 🍌  
+    - name: C++
+      display_name: 小袁のCPP
+      icon: 🍌
   color_setting:
     text_color: black # 文字默认颜色
     text_hover_color: white # 文字鼠标悬浮颜色

@@ -8,7 +8,7 @@ date: 2022-08-10 16:05:11
 ## 0.网站自述视频🎬
 
 <div class="about_page">
-  <div align=center class="aspect-ratio">
+  <!-- <div align=center class="aspect-ratio">
       <iframe src="https://player.bilibili.com/player.html?aid=474023258&&page=1&as_wide=1&high_quality=1&danmaku=0" 
       scrolling="no" 
       border="0" 
@@ -18,7 +18,7 @@ date: 2022-08-10 16:05:11
       danmaku=1 
       allowfullscreen="true"> 
       </iframe>
-  </div>
+  </div> -->
 </div>
 
 <br>
