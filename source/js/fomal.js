@@ -3185,9 +3185,9 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg);
-    --darkmode-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg);
-    --mobileday-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg);
-    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg);
+    --darkmode-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg);
+    --mobileday-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg);
+    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg);
   }`;
 }
 // 切换背景主函数
