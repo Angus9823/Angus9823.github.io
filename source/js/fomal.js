@@ -3170,14 +3170,24 @@ let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 
 
 // 更换背景(自己的代码)
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/124.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/123.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/125.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110341.jpg
+//https://cdn.staticaly.com/g//Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/126.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg   瑶妹儿
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg   关二爷
+
 if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://data-static.netdun.net/Fomalhaut/img/pic1.webp);
-    --darkmode-bg: url(https://data-static.netdun.net/Fomalhaut/img/home_bg.webp);
-    --mobileday-bg: url(https://data-static.netdun.net/Fomalhaut/img/mb11.webp);
-    --mobilenight-bg: url(https://data-static.netdun.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg);
+    --darkmode-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg);
+    --mobileday-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg);
+    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg);
   }`;
 }
 // 切换背景主函数
