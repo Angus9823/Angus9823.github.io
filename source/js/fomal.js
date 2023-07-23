@@ -3176,18 +3176,21 @@ let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 //https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230323110341.jpg
 //https://cdn.staticaly.com/g//Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/126.jpg
 //https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg
-//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127%20(1).jpg  手机黑模糊
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg   蓝天风车
 //https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg   瑶妹儿
-//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg   关二爷
+//https://cdn.staticaly.com/gh/Angu/9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg   关二爷
+//https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131%20(1).jpg   关二爷模糊
+
 
 if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg);
-    --darkmode-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131.jpg);
+    --default-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/128.jpg);
+    --darkmode-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/131%20(1).jpg);
     --mobileday-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/130.jpg);
-    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127.jpg);
+    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Angus9823/BlogDrawingBed_Typora_pic@main/2023/03/127%20(1).jpg);
   }`;
 }
 // 切换背景主函数
