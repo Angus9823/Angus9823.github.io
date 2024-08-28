@@ -1,0 +1,105 @@
+/* 页脚与头图透明            @@一图流*/
+#footer {
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  
+  /* 白天模式遮罩透明 */
+  #footer::before {
+    background: transparent !important;
+  }
+  #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 夜间模式遮罩透明 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+  }
+
+
+  #owo-big {
+    position: fixed;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px #aaa solid;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+    transform: translate(0, -105%);
+    overflow: hidden;
+    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
+}
+
+[data-theme=dark] #owo-big {
+    background-color: #4a4a4a
+}
+
+#owo-big img {
+    width: 100%;
+}
+
+/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */
+@keyframes owoIn {
+    0% {
+        transform: translate(0, -95%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, -105%);
+        opacity: 1;
+    }
+}
+
+
+/* Twikoo 评论样式 */
+
+.tk-input .el-textarea__inner {
+  min-height: 120px !important;
+}
+
+#twikoo .OwO-body {
+  max-width: 100% !important;
+}
+
+#twikoo .OwO .OwO-body .OwO-items:nth-child(1),
+#twikoo .OwO .OwO-body .OwO-items:nth-child(4) {
+  max-height: 360px !important;
+}
+
+#twikoo .OwO-items li[title|=menhera] img {
+  width: 100% !important;
+  margin: 5px 10px;
+}
+
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+  width: 300px !important;
+}
+
+.tk-comment .vemoji[alt|=menhera],
+.tk-comment .tk-owo-emotion[alt*=menhera] {
+  max-width: 300px !important;
+  max-height: 300px !important;
+  margin: 8px 1px;
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  .tk-comment .vemoji[alt|=menhera], .tk-comment .tk-owo-emotion[alt*=menhera] {
+      max-width: calc(100% - 30px) !important;
+      max-height: calc(100% - 30px) !important;
+  }
+  .OwO .OwO-body .OwO-items-image .OwO-item[title*=menhera] {
+      max-width: calc(50% - 10px);
+      box-sizing: border-box;
+  }
+  
+}
+
+
+  
