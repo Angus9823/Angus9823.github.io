@@ -3174,8 +3174,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/08/30-17--dark_mode.webp);
-    --darkmode-bg:url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/08/30-17--dark_mode.webp);
+    --default-bg: url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/09/01-15--IMG_0054.WEBP);
+    --darkmode-bg:url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/08/30-18--dark_mode.webp);
     --mobileday-bg: url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/08/30-17--mobileday.webp);
     --mobilenight-bg: url(https://typora-picgo-repo.oss-cn-hangzhou.aliyuncs.com/uPicForMyBlog/2024/08/30-17--mobilenight.webp);
   }`;
