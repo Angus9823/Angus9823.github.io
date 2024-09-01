@@ -146,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/posts/d8891387.html</loc>
-    
-    <lastmod>2024-08-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://angus9823.github.io/posts/b44ebf5e.html</loc>
     
     <lastmod>2024-08-30</lastmod>
@@ -165,6 +156,15 @@
   
   <url>
     <loc>https://angus9823.github.io/posts/b120c898.html</loc>
+    
+    <lastmod>2024-08-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://angus9823.github.io/posts/d8891387.html</loc>
     
     <lastmod>2024-08-30</lastmod>
     
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/life/music/index.html</loc>
+    <loc>https://angus9823.github.io/life/games/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/life/games/index.html</loc>
+    <loc>https://angus9823.github.io/life/music/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
@@ -362,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/personal/love/index.html</loc>
+    <loc>https://angus9823.github.io/site/census/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/site/census/index.html</loc>
+    <loc>https://angus9823.github.io/personal/bb/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/personal/bb/index.html</loc>
+    <loc>https://angus9823.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
@@ -668,20 +668,6 @@
 
   
   <url>
-    <loc>https://angus9823.github.io/tags/first/</loc>
-    <lastmod>2024-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://angus9823.github.io/tags/git%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2024-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://angus9823.github.io/tags/Markdown/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -696,6 +682,20 @@
   </url>
   
   <url>
+    <loc>https://angus9823.github.io/tags/first/</loc>
+    <lastmod>2024-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://angus9823.github.io/tags/git%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2024-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://angus9823.github.io/tags/MySQL/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -703,14 +703,14 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/tags/Typora%E8%AF%AD%E6%B3%95/</loc>
+    <loc>https://angus9823.github.io/tags/javase/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/tags/javase/</loc>
+    <loc>https://angus9823.github.io/tags/Typora%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -775,14 +775,14 @@
 
   
   <url>
-    <loc>https://angus9823.github.io/categories/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://angus9823.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://angus9823.github.io/categories/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -796,14 +796,14 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/categories/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</loc>
+    <loc>https://angus9823.github.io/categories/Java%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/categories/Java%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://angus9823.github.io/categories/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2024-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
