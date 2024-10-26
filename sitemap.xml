@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/posts/385046e1.html</loc>
+    <loc>https://angus9823.github.io/posts/b120c898.html</loc>
     
     <lastmod>2024-08-30</lastmod>
     
@@ -173,16 +173,7 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/posts/b120c898.html</loc>
-    
-    <lastmod>2024-08-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://angus9823.github.io/posts/b44ebf5e.html</loc>
+    <loc>https://angus9823.github.io/posts/385046e1.html</loc>
     
     <lastmod>2024-08-30</lastmod>
     
@@ -192,6 +183,15 @@
   
   <url>
     <loc>https://angus9823.github.io/posts/3fa72a3d.html</loc>
+    
+    <lastmod>2024-08-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://angus9823.github.io/posts/b44ebf5e.html</loc>
     
     <lastmod>2024-08-30</lastmod>
     
@@ -380,24 +380,6 @@
   </url>
   
   <url>
-    <loc>https://angus9823.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-05-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://angus9823.github.io/personal/love/index.html</loc>
-    
-    <lastmod>2024-05-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://angus9823.github.io/site/census/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
@@ -408,6 +390,24 @@
   
   <url>
     <loc>https://angus9823.github.io/site/time/index.html</loc>
+    
+    <lastmod>2024-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://angus9823.github.io/personal/bb/index.html</loc>
+    
+    <lastmod>2024-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://angus9823.github.io/personal/love/index.html</loc>
     
     <lastmod>2024-05-22</lastmod>
     
