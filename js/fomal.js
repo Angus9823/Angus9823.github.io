@@ -3160,7 +3160,7 @@ let picsum = "url(https://picsum.photos/1920/1080.webp)";
 // 小歪二次元
 // let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
 //  小歪高清壁纸
-let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
+// let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
 // 博天随机
 let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
 // tuapi 动漫
