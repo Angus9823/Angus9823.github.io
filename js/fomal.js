@@ -2950,7 +2950,8 @@ function setFontBorder() {
 
 // 设置主题色
 if (localStorage.getItem("themeColor") == undefined) {
-  localStorage.setItem("themeColor", "green");
+  // localStorage.setItem("themeColor", "green");
+  localStorage.setItem("themeColor", "purple");
 }
 setColor(localStorage.getItem("themeColor"));
 function setColor(c) {
@@ -3041,7 +3042,7 @@ function toggleRightside() {
 
 // 透明度调节滑块
 if (localStorage.getItem("transNum") == undefined) {
-  localStorage.setItem("transNum", 95);
+  localStorage.setItem("transNum", 8);
 }
 var curTransNum = localStorage.getItem("transNum");
 var curTransMini = curTransNum * 0.95;
@@ -3061,7 +3062,8 @@ function setTrans() {
 
 // 模糊度调节滑块
 if (localStorage.getItem("blurRad") == undefined) {
-  localStorage.setItem("blurRad", 20);
+  // localStorage.setItem("blurRad", 20);
+  localStorage.setItem("blurRad", 6);
 }
 var curBlur = localStorage.getItem("blurRad"); // 当前模糊半径
 var miniBlur = curBlur * 0.95;
@@ -3082,12 +3084,12 @@ function setBlurNum() {
 
 // 模糊效果开关
 if (localStorage.getItem("blur") == undefined) {
-  localStorage.setItem("blur", 0);
+  localStorage.setItem("blur", 1); // 这里是默认关闭（0表示关闭，1表示开启）
 }
 if (localStorage.getItem("blur") == 0) {
   document.getElementById("settingStyle").innerText = `:root{--backdrop-filter: none}`;
 } else {
-  document.getElementById("settingStyle").innerText = `:root{--backdrop-filter: var(--blur-num)}`;
+  document.getElementById("settingStyle").innerText = `:root{--backdrop-filter: var(--blur-num)}`; // 开启模糊
 }
 function setBlur() {
   if (document.getElementById("blur").checked) {
@@ -3396,7 +3398,7 @@ function createWinbox() {
         onclick="setColor('blue')"><input type="radio" id="heoblue" name="colors" value=" "
         onclick="setColor('heoblue')"><input type="radio" id="darkblue" name="colors" value=" "
         onclick="setColor('darkblue')"><input type="radio" id="purple" name="colors" value=" "
-        onclick="setColor('purple')"><input type="radio" id="pink" name="colors" value=" "
+        onclick="setColor('purple')" checked="checked"><input type="radio" id="pink" name="colors" value=" "
         onclick="setColor('pink')" checked="checked"><input type="radio" id="black" name="colors" value=" "
         onclick="setColor('black')"><input type="radio" id="blackgray" name="colors" value=" "
         onclick="setColor('blackgray')"></div>
