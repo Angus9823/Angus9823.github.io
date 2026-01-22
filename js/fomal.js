@@ -2952,8 +2952,8 @@ function setFontBorder() {
 
 // 设置主题色
 if (localStorage.getItem("themeColor") == undefined) {
-  // localStorage.setItem("themeColor", "green");
-  localStorage.setItem("themeColor", "purple");
+  localStorage.setItem("themeColor", "green");
+  // localStorage.setItem("themeColor", "purple");
 }
 setColor(localStorage.getItem("themeColor"));
 function setColor(c) {
@@ -3044,7 +3044,7 @@ function toggleRightside() {
 
 // 透明度调节滑块
 if (localStorage.getItem("transNum") == undefined) {
-  localStorage.setItem("transNum", 8);
+  localStorage.setItem("transNum", 60);
 }
 var curTransNum = localStorage.getItem("transNum");
 var curTransMini = curTransNum * 0.95;
@@ -3320,16 +3320,44 @@ var winbox = "";
 function createWinbox() {
   let div = document.createElement("div");
   document.body.appendChild(div);
-  winbox = WinBox({
+
+  // 计算4:3比例的尺寸
+  const screenWidth = window.innerWidth;
+  const screenHeight = window.innerHeight;
+
+  // 横向长度合适：取屏幕宽度的60%，但不超过800px
+  const maxWidth = Math.min(screenWidth * 0.6, 800);
+  // 根据4:3比例计算高度
+  const height = maxWidth * 0.75; // 4:3比例，高度是宽度的3/4
+
+  // 关键修改：调整窗口参数为截图效果
+  winbox = new WinBox({
     id: "meihuaBox",
-    index: 99,
+    index: 9999, // 确保在最顶层
     title: "美化设置",
-    x: "left",
-    y: "center",
-    minwidth: "300px",
-    height: "60%",
-    // "#76c8f1"
+    x: "center",
+    y: Math.min(200, (screenHeight - height) / 2), // 限制顶部距离为200px
+    width: maxWidth + "px",  // 固定宽度
+    height: height + "px", // 4:3比例的高度
+    minwidth: "400px", // 最小宽度
+    minheight: "300px", // 最小高度（保持4:3）
+    maxwidth: "800px", // 最大宽度
+    maxheight: "600px", // 最大高度（保持4:3）
     background: 'var(--theme-color)',
+    border: 4,
+
+    // 确保可以滚动
+    class: ["scrollable"],
+
+    // 修改关闭行为
+    onclose: function () {
+      if (div && div.parentNode) {
+        div.parentNode.removeChild(div);
+      }
+      winbox = null;
+      return false; // 阻止默认关闭
+    },
+
     onmaximize: () => {
       div.innerHTML = `<style>body::-webkit-scrollbar {display: none;} div#meihuaBox {width: 100% !important;}</style>`;
     },
@@ -3337,8 +3365,10 @@ function createWinbox() {
       div.innerHTML = "";
     },
   });
-  winResize();
-  window.addEventListener("resize", winResize);
+
+  // 确保内容可以滚动
+  winbox.body.style.overflowY = "auto";
+  winbox.body.style.paddingRight = "15px"; // 避免滚动条遮挡
 
   // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
   winbox.body.innerHTML = `
@@ -3529,27 +3559,17 @@ function reset() {
   reload();
 }
 
-// 适应窗口大小
-function winResize() {
-  try {
-    var offsetWid = document.documentElement.clientWidth;
-    if (offsetWid <= 768) {
-      winbox.resize(offsetWid * 0.95 + "px", "90%").move("center", "center");
-    } else {
-      winbox.resize(offsetWid * 0.6 + "px", "70%").move("center", "center");
-    }
-  } catch (err) {
-    // console.log("Pjax毒瘤抽风运行winResize方法🙄🙄🙄");
+
+// 切换状态，窗口已创建则关闭，没窗口则创建窗口
+function toggleWinbox() {
+  if (winbox) {
+    // 如果窗口存在，关闭它
+    winbox.close();
+    winbox = null;
+  } else {
+    createWinbox();
   }
 }
 
-// 切换状态，窗口已创建则控制窗口显示和隐藏，没窗口则创建窗口
-function toggleWinbox() {
-  if (document.querySelector("#meihuaBox")) {
-    winbox.toggleClass("hide");
-  } else {
-    createWinbox();
-  };
-}
 
 /* 美化模块 end */
